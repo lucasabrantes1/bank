@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Usuario user = new Usuario("lucasdd", "lucasdd@gmail.com", "123456");
+        Usuario user = new Usuario("Pedro", "lucasdd@gmail.com", "123456");
         System.out.println(user.nome);
         System.out.println(user.email);
         System.out.println(user.senha);
